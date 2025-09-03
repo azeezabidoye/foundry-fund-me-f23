@@ -2,8 +2,7 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-remappings = [@chainlink/contracts/=lib/chainlink-brownie-contracts@1.3.0/contracts/
-chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/forge-std/=lib/forge-std/src/]
+remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts@1.3.0/contracts/chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/forge-std/=lib/forge-std/src/"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
 
